@@ -1,29 +1,28 @@
 # 🎬 AskTube — YouTube Q&A Bot
 
-Ask questions about any YouTube video using AI.
+AskTube lets you have a conversation with any YouTube video. Paste a video link, and the app automatically fetches the transcript, breaks it into chunks, and builds a searchable vector index. You can then ask any question about the video and get accurate, context-aware answers powered by LLaMA 3 — no manual note-taking or scrubbing through the video required.
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Backend | Flask, LangChain, FAISS |
+| LLM | LLaMA 3.3 70B via Groq (free) |
+| Embeddings | HuggingFace `all-MiniLM-L6-v2` |
+| Transcript | youtube-transcript-api |
+| Frontend | HTML, CSS, JavaScript |
 
 ## Screenshots
 
 ### Loading a Video
 ![Loading State](assets/Screenshot%202026-05-19%20165850.png)
-> Paste a YouTube URL and click Load Video — the status card shows live progress while the transcript is fetched and the index is built.
 
 ### Chatting with the Video
 ![Chat State](assets/Screenshot%202026-05-19%20170103.png)
-> Once loaded, ask anything about the video and get accurate AI-powered answers instantly.
 
----
+## Demo
 
-## How it works
-1. Paste a YouTube URL → transcript is fetched automatically
-2. Transcript is chunked and embedded into a vector store
-3. Ask questions → relevant chunks are retrieved and answered by LLaMA 3 via Groq
-
-## Tech Stack
-- **Backend** — Flask, LangChain, FAISS
-- **LLM** — LLaMA 3.3 70B via Groq (free)
-- **Embeddings** — HuggingFace `all-MiniLM-L6-v2`
-- **Frontend** — HTML, CSS, JavaScript
+https://github.com/user-attachments/assets/Recording%202026-05-19%20204519.mp4
 
 ## Setup
 
@@ -42,7 +41,7 @@ Ask questions about any YouTube video using AI.
    ```bash
    cp .env.example .env
    ```
-   Then fill in your API keys:
+   Fill in your API keys:
    - **GROQ_API_KEY** → [console.groq.com](https://console.groq.com)
    - **HUGGINGFACE_API_KEY** → [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens)
 

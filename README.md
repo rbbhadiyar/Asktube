@@ -2,6 +2,18 @@
 
 Ask questions about any YouTube video using AI.
 
+## Screenshots
+
+### Loading a Video
+![Loading State](assets/Screenshot%202026-05-19%20165850.png)
+> Paste a YouTube URL and click Load Video — the status card shows live progress while the transcript is fetched and the index is built.
+
+### Chatting with the Video
+![Chat State](assets/Screenshot%202026-05-19%20170103.png)
+> Once loaded, ask anything about the video and get accurate AI-powered answers instantly.
+
+---
+
 ## How it works
 1. Paste a YouTube URL → transcript is fetched automatically
 2. Transcript is chunked and embedded into a vector store
@@ -17,8 +29,8 @@ Ask questions about any YouTube video using AI.
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/your-username/asktube.git
-   cd asktube
+   git clone https://github.com/rbbhadiyar/Asktube.git
+   cd Asktube
    ```
 
 2. Install dependencies

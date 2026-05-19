@@ -18,18 +18,6 @@ AskTube lets you have a conversation with any YouTube video. Paste a video link,
 | Transcript | youtube-transcript-api |
 | Frontend | HTML, CSS, JavaScript |
 
-## Screenshots
-
-### Loading a Video
-![Loading State](assets/Screenshot%202026-05-19%20165850.png)
-
-### Chatting with the Video
-![Chat State](assets/Screenshot%202026-05-19%20170103.png)
-
-## Demo
-
-https://github.com/user-attachments/assets/Recording%202026-05-19%20204519.mp4
-
 ## Setup
 
 1. Clone the repo
@@ -57,3 +45,22 @@ https://github.com/user-attachments/assets/Recording%202026-05-19%20204519.mp4
    ```
 
 5. Open [http://localhost:5000](http://localhost:5000)
+
+---
+
+## Screenshots
+
+### Loading a Video
+> Paste any YouTube URL and hit Load Video. The status card shows live progress as the transcript is fetched and the vector index is built in the background.
+
+![Loading State](assets/Screenshot%202026-05-19%20165850.png)
+
+### Chatting with the Video
+> Once the video is loaded, ask anything about it. AskTube retrieves the most relevant parts of the transcript and generates a precise answer using LLaMA 3.
+
+![Chat State](assets/Screenshot%202026-05-19%20170103.png)
+
+## Demo
+> A full walkthrough — loading a video and asking questions about it in real time.
+
+https://github.com/user-attachments/assets/Recording%202026-05-19%20204519.mp4

@@ -1,3 +1,9 @@
+
+
+https://github.com/user-attachments/assets/5b370db0-37a5-4a86-867d-002459575348
+
+
+
 # 🎬 AskTube — YouTube Q&A Bot
 
 AskTube lets you have a conversation with any YouTube video. Paste a video link, and the app automatically fetches the transcript, breaks it into chunks, and builds a searchable vector index. You can then ask any question about the video and get accurate, context-aware answers powered by LLaMA 3 — no manual note-taking or scrubbing through the video required.
